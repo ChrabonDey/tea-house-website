@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+/* Here is a banner section */
+.banner{
+    position: relative;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    margin-top:50px;
+    height: 560px;
+    
+}
+.banner-description{
+     text-align:left;
+     width:39%;
+     margin-left:150px;
+     height:484px;
+     margin-right:13px;
+     
+
+}
+.banner-description h1{
+color: rgb(28, 28, 28);
+font-size: 80px;
+font-weight: 800;
+line-height: 100px;
+margin-bottom: 30px;
+}
+.banner-description p{
+    color: rgb(119, 119, 119);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-bottom:30px;
+    padding-right:170px
+}
+.banner-description button{
+    display: flex;
+    color: rgb(255, 255, 255);
+    gap:9px;
+    align-items: center;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+    border-radius: 10px;
+    padding:18px 20px 20px 18px;
+background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+border:none;
+}
+.banner-img img{
+   width:100%;
+   height: 100%;
+
+}
+.banner-img{
+    position: relative;
+    width:41%;
+    height:498px;
+   margin-top:50px;
+}
+.banner-card{
+    position: absolute;
+    width:39%;
+    height:100px;
+    left:81px;
+    top:78%;
+    border-radius: 10px;
+   box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
+   background: rgb(255, 255, 255);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   gap:9px;
+  
+}
+.banner-card h4{
+    color: rgb(28, 28, 28);
+    font-size: 30px;
+   font-weight: 800;
+   line-height: 41px;
+}
+.banner-card p{
+    color: rgb(119, 119, 119);
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+}
+.banner-card img{
+    width:95%;
+    height: 30%;
+}
+/* Here is a feature section */
+main{
+    width:80%;
+    margin:0 auto;
+}
+.feature{
+    text-align:center;
+    margin-top:130px;
+}
+.feature-description h1{
+    color: rgb(28, 28, 28);
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+margin-bottom:27px;
+}
+.feature-description p{
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin-bottom:50px;
+}
+.feature-card-section{
+    display: flex;
+    gap:24px;
+
+}
+.feature-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    border-radius: 10px;
+background: linear-gradient(180.00deg, rgb(244, 244, 244),rgba(244, 244, 244, 0) 100%);
+}
+.feature-card img{
+    width:60%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.feature-card h5{
+    color: rgb(28, 28, 28);
+   font-size: 25px;
+   font-weight: 800;
+   line-height: 34px;
+      margin-bottom: 15px;
+}
+.feature-card p{
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 35px;
+    width:60%;
+    
+}
+/* Here is a fresh section */
+.fresh{
+    display:flex;
+    gap:53px;
+    margin-top:165px;
+    
+}
+.fresh-box-content{
+    width:40%;
+}
+.fresh-description{
+    width:50%;
+    text-align: left;
+}
+.fresh-box-content img{
+   width:75%;
+   height: 76%;
+   
+  
+}
+.fresh-box-content{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap:20px;
+    
+}
+.fresh-box-1{
+    grid-column: 1/span 4;
+   height:120px;
+   
+    border-radius: 10px;
+background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+opacity: 0.1;
+
+
+}
+.fresh-box-2{
+    grid-column: 5/span 4;
+    grid-row:1/span 3;
+    border-radius: 10px;
+
+background: rgba(230, 166, 35, 0.1);
+display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fresh-box-3{
+    grid-column: 1/span 4;
+    grid-row:2/span 3;
+    border-radius: 10px;
+background: rgba(87, 118, 57, 0.1);
+display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fresh-box-4{
+    grid-column: 5/span 4;
+    
+    border-radius: 10px;
+background: linear-gradient(90.00deg, rgb(217, 217, 217),rgba(255, 255, 255, 0) 100%);
+}
+.fresh-first h1{
+    color: rgb(28, 28, 28);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0px;
+    margin-bottom:34px;
+}
+.fresh-first p{
+    color: rgb(119, 119, 119);
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+margin-bottom:30px;
+}
+.fresh-first-2 h3{
+    color: rgb(28, 28, 28);
+font-size: 20px;
+font-weight: 800;
+line-height: 27px;
+margin-bottom:14px;
+}
+.fresh-first-2 p{
+    color: rgb(119, 119, 119);
+
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+margin-bottom:20px;
+}
+.fresh-first-1 h3{
+    color: rgb(28, 28, 28);
+font-size: 20px;
+font-weight: 800;
+line-height: 27px;
+margin-bottom:14px;
+}
+.fresh-first-1 p{
+    color: rgb(119, 119, 119);
+
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+margin-bottom:20px;
+}
+/* Here is a clients section */
+.clients{
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+}
+.clients-description{
+    position: relative;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clients-para{
+    width:77%;
+    text-align: left;
+}
+.clients-description img{
+    width:100%;
+
+}
+.clients-para{
+    position:absolute;
+}
+.clients-card-section{
+    width:50%;
+    display: flex;
+
+}
+.clients-card-design{
+    width:90%;
+    display: flex;
+    position: relative;
+    margin:85px 70px 85px 0px;
+}
+.clients-card{
+    width:80%;
+    height:233px;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.clients-para{
+    text-align: left;
+}
+.clients-para h1{
+    color: rgb(244, 244, 244);
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0px;
+margin-bottom:34px;
+}
+.clients-para p{
+    color: rgb(244, 244, 244);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+}
+
+.clients-para button{
+    border-radius: 8px;
+background:white;
+display: flex;
+justify-content: center;
+align-items: center;
+border:none;
+}
+.clients-para button p{
+    background: linear-gradient(270.00deg, rgb(255, 0, 0),rgb(255, 137, 56));
+    color:
+    transparent;
+    background-clip:
+    text;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin:14px 25px 18px 28px;
+    
+}
+.card-para{
+    padding-left:5%;
+    width:90%;
+    
+}
+.clients-card p{
+    color: rgb(119, 119, 119);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+margin-bottom:20px;
+
+
+}
+.clients-card h3{
+    color: rgb(28, 28, 28);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    
+    
+    
+}
+.clients-card h5{
+    color: rgb(93, 90, 111);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+   
+}
+
+
+.clients-carde{
+    position: absolute;
+    z-index:1;
+    top:30%;
+
+}
+.clients-card-1{
+   position: relative;
+    left:20%;
+}
+.clients-img{
+    position: absolute;
+    bottom:0;
+    left:25%;
+}
+.clients-card .card-img  {
+    width:13%;
+    border:4px solid white;
+    border-radius:50%;
+   margin-top:-8%;
+   margin-left:-93%;
+    
+    
+}
+.card-img-2{
+    margin-left: 70%;
+    margin-top: -2%;
+}
+.clients-card .card-img img{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-card-1{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    opacity: 0.3;
+}
+@media screen and (max-width:576px){
+    .banner {
+        justify-content: center;
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 50px;
+        height:100%;
+        flex-direction: column;
+    }
+    .banner-description {
+        text-align: left;
+       width:100%;
+        margin-left:0px;
+        height: 484px;
+        margin-right: 0px;
+        margin: 0 auto;
+    }
+    .banner-description h1 {
+       width:100%;
+        color: rgb(28, 28, 28);
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .banner-description p {
+        width: 80vw;
+        color: rgb(119, 119, 119);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0px;
+        margin-bottom: 30px;
+         padding-right: 0px; 
+    }
+    .banner-description button {
+        padding: 10px;
+        width: max-content;
+    }
+    .banner-img {
+        margin: 0 auto;
+        width: 100%; 
+        height:100%;
+        margin-top: 50px;
+    }
+    .banner-img img {
+        width: 100%;
+        
+    }
+    .banner-card {
+        position: absolute;
+        width: 89%;
+        height: 100px;
+        left: 0px;
+        top:80%;
+        border-radius: 10px;
+        box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+    .feature-description h1 {
+        color: rgb(28, 28, 28);
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 61px;
+        margin-bottom: 27px;
+    }
+    .feature-card-section {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .fresh {
+        display: flex;
+        gap:0px;
+        margin-top: 165px;
+        flex-direction: column;
+    }
+    .fresh-box-content {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows:auto;
+        gap: 20px;
+        width: 100%;
+    }
+    .fresh-description {
+      width:100%;
+      
+    }
+    .fresh-first h1 {
+        
+        font-size: 29px;
+
+    }
+    .fresh-box-2{
+        grid-row: 1/span 4;
+    }
+    .clients {
+        position: relative;
+        display: flex;
+        border-radius: 10px;
+        background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%);
+        flex-direction: column;
+    }
+    .clients-description {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .clients-para {
+        padding: 25px;
+        width: 100%;
+        text-align: left;
+    }
+    .clients-para{
+        position: inherit;
+    }
+    .clients-para button p {
+        width: max-content;
+        background: linear-gradient(270.00deg, rgb(255, 0, 0), rgb(255, 137, 56));
+        color: transparent;
+        background-clip: text;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 27px;
+        margin: 10px 15px 10px 20px;
+    }
+    .clients-img {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+    }
+    .clients-card-section {
+        margin-top: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .clients-card-design {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        position: relative;
+        margin-top: 92px;
+    }
+    .clients-card {
+        width: 97%;
+        height: 100%; 
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .clients-card-1 {
+        position: inherit;
+        left:0%;
+    }
+    .clients-para h1 {
+        color: rgb(244, 244, 244);
+        font-size: 24px;
+    }
+}
